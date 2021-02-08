@@ -11,6 +11,7 @@
     <modules>
         <module>actuator-learn</module>
         <module>admin-server</module>
+        <module>single-client-admin</module>
     </modules>
 
     <properties>

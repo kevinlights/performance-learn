@@ -1,0 +1,24 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    base-path: /actuator
+
+spring:
+  boot:
+    admin:
+      context-path: /api/learn/admin
+      client:
+        url: http://127.0.0.1:8080/api/learn/admin
+
+info:
+  app:
+    name: actuator-learn
+    description: actuator-learn
+    version: 1.0
+    java.version: 1.8
+
+server:
+  port: 8080
+  servlet-context: /api/learn
